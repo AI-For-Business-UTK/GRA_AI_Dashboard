@@ -51,7 +51,7 @@ CARD_BODY_STYLE = {
 }
 
 # Load the CSV files
-ai_subset = pd.read_excel("Salary_Sub.xlsx")
+ai_subset = pd.read_excel("data/Salary_Sub.xlsx")
 
 # Dash app setup with Bootstrap theme
 app = Dash(__name__, external_stylesheets=[
